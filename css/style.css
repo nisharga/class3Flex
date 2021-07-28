@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0
+}
+
+body{
+color: #3B506C;
+}
+
+.contaier {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+img{
+	width: 100%;
+}
+
+/*=======================
+==========header=========
+==========================*/
+
+.menu ul{
+	display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a {  
+    text-decoration: none;
+    padding: 20px 20px;
+    display: inline-block;
+    color: #3B506C;
+    font-weight: 700;
+}
+a.logo img {
+    width: 90px;
+}
+nav {
+    padding: 0px 10px; 
+}
+
+.row {
+    display: flex; 
+    align-items: center;
+}
+a.logo {
+    flex: 1 0 20%;
+    max-width: 20%;
+
+}
+.menu {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+
+
+
+/*=======================
+==========heroArea=========
+==========================*/
+.heroArea {
+    padding: 70px;
+    text-align: center;
+}
+
+.heroArea h1 {
+    font-size: 48px;
+    color: #0F2656;
+    font-weight: 900;
+}
+.heroArea h1 span{ 
+    color: #008AFF; 
+}
+.heroArea img {
+    width: 600px;
+}
+.heroArea p {
+    padding: 20px 200px;
+    font-size: 18px;
+}
+
+
+
+/*=======================
+==========successfullCompleted=========
+==========================*/
+.successfullCompleted h1 {
+    font-size: 53px;
+    color: #0F2656;
+    line-height: 1.1;
+    font-weight: 900;
+}
+.leftArea p span {
+    font-size: 52px;
+    color: #F15767;
+    font-weight: 900;
+}
+.flex {
+    display: flex; 
+    justify-content: center;
+}
+.col-md-3 {
+    max-width: 33.33%;
+    flex: 0 0 33%;
+    padding: 20px;
+}
+.leftArea p {
+	font-size: 17px;
+	line-height: 1.3;
+}
+.leftArea{
+	text-align: right; 
+} 
+.singleBox {
+    background: #FDEBED;
+    padding: 20px;
+    outline: hidden;
+}
+.singleBox h3 {
+    padding: 10px 0px;
+}
+
+
+/*=======================
+==========footer=========
+==========================*/
+
+footer {
+    background: #008AFF;
+    color: #fff;
+    padding: 25px 0px;
+    text-align: center;
+}
+footer p {
+	opacity: 0.5;
+}
+
+footer p span{
+	opacity: 1;
+	letter-spacing: 3px;
+	font-weight: 900; 
+	color: #fff;
+}
